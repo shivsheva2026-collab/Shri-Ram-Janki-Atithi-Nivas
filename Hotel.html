@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Shri Ram Janki Atithi Nivas, Varanasi — a comfortable, well-connected stay near Kashi Vishwanath Temple, Kal Bhairav and Mahamrityunjay Mahadev." />
+  <title>Shri Ram Janki Atithi Nivas | Varanasi</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'Georgia', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif']
+          },
+          colors: {
+            gold: { 100: '#FBF7F0', 200: '#F4ECE0', 300: '#E8D9C0', 400: '#D5BE99', 500: '#C5A880', 600: '#B08E5F', 700: '#8C6F45', 800: '#68502F' },
+            noir: { 900: '#0C0E12', 800: '#14181E', 700: '#1D222A', 600: '#2A303C', 500: '#3D4656' },
+            champagne: '#F8F5F0'
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <style>
+    ::-webkit-scrollbar {
+      width: 8px
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #0C0E12
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #8C6F45;
+      border-radius: 4px
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #C5A880
+    }
+
+    .glass-luxury {
+      background: rgba(20, 24, 30, .78);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border: 1px solid rgba(197, 168, 128, .15)
+    }
+
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFF0DB 0%, #D5BE99 50%, #C5A880 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent
+    }
+
+    .gold-shimmer-btn {
+      background: linear-gradient(135deg, #C5A880 0%, #E8D9C0 50%, #B08E5F 100%);
+      transition: .3s
+    }
+
+    .gold-shimmer-btn:hover {
+      background: linear-gradient(135deg, #D5BE99 0%, #FFF0DB 50%, #C5A880 100%);
+      box-shadow: 0 10px 25px -5px rgba(197, 168, 128, .4);
+      transform: translateY(-2px)
+    }
+
+    .hero-bg {
+      background: linear-gradient(to bottom, rgba(12, 14, 18, .30), rgba(12, 14, 18, .82) 75%, #0C0E12 100%)
+    }
+
+    .modal-open {
+      overflow: hidden
+    }
+  </style>
+</head>
+
+<body class="bg-noir-900 text-slate-200 font-sans antialiased overflow-x-hidden">
+
+  <!-- TOP BAR -->
+  <div class="bg-noir-800 border-b border-gold-500/10 text-xs py-2 px-4 sm:px-8 text-slate-400">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2 text-gold-400">
+        <i data-lucide="map-pin" class="w-3.5 h-3.5"></i>
+        <span>K46/197 Hartirath • Visheshwarganj • Kotwali • Varanasi • Uttar Pradesh 221001</span>
+      </div>
+      <div class="flex items-center gap-5">
+        <a href="tel:+919236222225" class="hover:text-gold-300 transition-colors">+91 92362 22225</a>
+        <span class="hidden sm:block h-3 w-px bg-slate-700"></span>
+        <a href="tel:+919369545746" class="hover:text-gold-300 transition-colors">+91 93695 45746</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVBAR -->
+  <header id="main-nav" class="sticky top-0 z-40 transition-all duration-300 glass-luxury border-b border-gold-500/15">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8 h-20 flex items-center justify-between">
+      <a href="#hero" class="flex items-center gap-3 group">
+        <img src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\logo.png"
+          class="h-14 sm:h-16 w-auto object-contain transition-transform duration-300 group-hover:scale-105" />
+        <div class="flex flex-col">
+          <span class="font-serif text-xl sm:text-2xl tracking-wide text-white font-semibold">Shri Ram Janki</span>
+          <span class="text-[10px] tracking-[0.22em] text-gold-400 uppercase">Atithi Nivas</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center gap-7 text-xs uppercase tracking-widest text-slate-300 font-medium">
+        <a href="#rooms" class="hover:text-gold-400 transition">Rooms</a>
+        <a href="#facilities" class="hover:text-gold-400 transition">Facilities</a>
+        <a href="#attractions" class="hover:text-gold-400 transition">Kashi</a>
+        <a href="#gallery" class="hover:text-gold-400 transition">Gallery</a>
+        <a href="#reviews" class="hover:text-gold-400 transition">Guest Reviews</a>
+        <a href="#contact" class="hover:text-gold-400 transition">Contact</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="tel:+919369545746"
+          class="hidden sm:flex gold-shimmer-btn text-noir-900 font-semibold px-5 py-2.5 rounded-sm text-xs uppercase tracking-widest items-center gap-2">
+          <i data-lucide="phone" class="w-3.5 h-3.5"></i> Book Now
+        </a>
+        <button onclick="toggleMobileMenu()" class="lg:hidden text-slate-300 hover:text-gold-400 p-2">
+          <i id="menu-icon" data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobile-menu"
+      class="hidden lg:hidden border-t border-gold-500/20 bg-noir-800 px-6 py-5 space-y-3 text-sm uppercase tracking-wider">
+      <a href="#rooms" onclick="toggleMobileMenu()" class="block py-2">Rooms</a>
+      <a href="#facilities" onclick="toggleMobileMenu()" class="block py-2">Facilities</a>
+      <a href="#attractions" onclick="toggleMobileMenu()" class="block py-2">Kashi Attractions</a>
+      <a href="#gallery" onclick="toggleMobileMenu()" class="block py-2">Gallery</a>
+      <a href="#contact" onclick="toggleMobileMenu()" class="block py-2">Contact & Location</a>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="relative min-h-[88vh] flex items-center justify-center overflow-hidden">
+    <div class="absolute inset-0">
+      <img src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\image_df6fbb4e.jpg"
+        alt="Elegant hotel room in Varanasi" class="w-full h-full object-cover object-center" />
+      <div class="absolute inset-0 hero-bg"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-8 py-20 text-center">
+      <div
+        class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold-400/30 bg-noir-800/70 backdrop-blur-md mb-6">
+        <i data-lucide="sparkles" class="w-3.5 h-3.5 text-gold-400"></i>
+        <span class="text-xs uppercase tracking-[0.2em] text-gold-300 font-semibold">A Comfortable Stay in Kashi</span>
+      </div>
+
+      <h1
+        class="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-normal leading-[1.02] tracking-tight mb-6">
+        Stay Close to <br>
+        <span class="italic gold-gradient-text">the Spirit of Varanasi</span>
+      </h1>
+
+      <p class="max-w-2xl mx-auto text-slate-300 text-base sm:text-lg font-light leading-relaxed mb-9">
+        Welcome to Shri Ram Janki Atithi Nivas — a comfortable and well-connected stay in Hartirath, Varanasi, ideal for
+        families, groups, pilgrims and travellers exploring Kashi.
+      </p>
+
+      <div class="flex flex-col sm:flex-row justify-center gap-3">
+        <a href="#rooms"
+          class="gold-shimmer-btn text-noir-900 font-semibold px-7 py-3 rounded text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+          <i data-lucide="bed-double" class="w-4 h-4"></i> Explore Rooms
+        </a>
+        <a href="https://maps.app.goo.gl/gTqyNFweJihAMV688" target="_blank" rel="noopener"
+          class="border border-gold-400/40 text-gold-200 hover:bg-gold-500/10 px-7 py-3 rounded text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+          <i data-lucide="map" class="w-4 h-4"></i> View Location
+        </a>
+      </div>
+
+      <div class="mt-10 max-w-4xl mx-auto glass-luxury rounded-xl p-4 sm:p-5 border border-gold-500/25">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 text-left">
+          <div class="flex items-center gap-3">
+            <i data-lucide="landmark" class="w-5 h-5 text-gold-400"></i>
+            <div><span class="block text-[10px] uppercase tracking-wider text-gold-400">Kashi Vishwanath</span><strong
+                class="text-sm text-white">Approx. 1.5 km</strong></div>
+          </div>
+          <div class="flex items-center gap-3">
+            <i data-lucide="map-pin" class="w-5 h-5 text-gold-400"></i>
+            <div><span class="block text-[10px] uppercase tracking-wider text-gold-400">Kal Bhairav</span><strong
+                class="text-sm text-white">Approx. 500 m</strong></div>
+          </div>
+          <div class="flex items-center gap-3">
+            <i data-lucide="heart" class="w-5 h-5 text-gold-400"></i>
+            <div><span class="block text-[10px] uppercase tracking-wider text-gold-400">Mahamrityunjay</span><strong
+                class="text-sm text-white">Approx. 200 m</strong></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="bg-noir-800/80 border-y border-gold-500/15 py-10 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+      <div>
+        <p class="font-serif text-3xl text-gold-300">7</p>
+        <p class="text-xs uppercase tracking-widest text-slate-400">Room & Stay Options</p>
+      </div>
+      <div>
+        <p class="font-serif text-3xl text-gold-300">24/7</p>
+        <p class="text-xs uppercase tracking-widest text-slate-400">Guest Assistance</p>
+      </div>
+      <div>
+        <p class="font-serif text-3xl text-gold-300">Wi-Fi</p>
+        <p class="text-xs uppercase tracking-widest text-slate-400">High-Speed Internet</p>
+      </div>
+      <div>
+        <p class="font-serif text-3xl text-gold-300">Kashi</p>
+        <p class="text-xs uppercase tracking-widest text-slate-400">Temple & Heritage Access</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="py-20 px-4 sm:px-8 max-w-5xl mx-auto text-center">
+    <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Traditional Banarasi Hospitality</span>
+    <h2 class="font-serif text-4xl sm:text-5xl text-white mt-3 mb-5">A Peaceful Base for Your Kashi Journey</h2>
+    <p class="text-slate-400 leading-relaxed">
+      Located in Hartirath, Visheshwarganj, Shri Ram Janki Atithi Nivas offers clean, practical and comfortable
+      accommodation for guests visiting Varanasi for pilgrimage, sightseeing, family travel and group stays. Our focus
+      is simple: a convenient location, well-maintained rooms and attentive guest assistance.
+    </p>
+  </section>
+
+  <!-- ROOMS -->
+  <section id="rooms" class="py-24 px-4 sm:px-8 bg-noir-800/40 border-y border-gold-500/10">
+    <div class="max-w-7xl mx-auto">
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Accommodation</span>
+        <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-4">Rooms for Every Kind of Stay</h2>
+        <p class="text-slate-400">Choose from private rooms, family-friendly options and a male dormitory, depending on
+          your group and stay requirements.</p>
+        <div class="flex flex-wrap justify-center gap-2 mt-7">
+          <button onclick="filterRooms('all')"
+            class="filter active px-4 py-2 rounded-full text-xs uppercase tracking-wider" data-filter="all">All</button>
+          <button onclick="filterRooms('deluxe')" class="filter px-4 py-2 rounded-full text-xs uppercase tracking-wider"
+            data-filter="deluxe">Deluxe</button>
+          <button onclick="filterRooms('family')" class="filter px-4 py-2 rounded-full text-xs uppercase tracking-wider"
+            data-filter="family">Family</button>
+          <button onclick="filterRooms('double')" class="filter px-4 py-2 rounded-full text-xs uppercase tracking-wider"
+            data-filter="double">Double</button>
+          <button onclick="filterRooms('triple')" class="filter px-4 py-2 rounded-full text-xs uppercase tracking-wider"
+            data-filter="triple">Triple</button>
+          <button onclick="filterRooms('dormitory')"
+            class="filter px-4 py-2 rounded-full text-xs uppercase tracking-wider"
+            data-filter="dormitory">Dormitory</button>
+        </div>
+      </div>
+      <div id="room-cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- FACILITIES -->
+  <section id="facilities" class="py-24 px-4 sm:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-2xl mx-auto mb-14">
+      <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Guest Comfort</span>
+      <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-4">Facilities & Essentials</h2>
+      <p class="text-slate-400">Practical amenities designed to make your stay comfortable and convenient.</p>
+    </div>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="wifi" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">Free High-Speed Wi-Fi</h3>
+        <p class="text-slate-400 text-sm mt-2">Stay connected throughout your visit.</p>
+      </div>
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="headphones" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">24/7 Guest Assistance</h3>
+        <p class="text-slate-400 text-sm mt-2">Support for guests whenever you need it.</p>
+      </div>
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="shield-check" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">CCTV in Common Areas</h3>
+        <p class="text-slate-400 text-sm mt-2">Security monitoring in common areas.</p>
+      </div>
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="users" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">Family-Friendly Environment</h3>
+        <p class="text-slate-400 text-sm mt-2">Suitable accommodation for families and groups.</p>
+      </div>
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="sparkles" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">Clean & Well-Maintained</h3>
+        <p class="text-slate-400 text-sm mt-2">Comfortable rooms with essential amenities.</p>
+      </div>
+      <div class="glass-luxury p-7 rounded-xl"><i data-lucide="utensils" class="w-7 h-7 text-gold-400 mb-4"></i>
+        <h3 class="font-serif text-2xl text-white">Shared Kitchen in Dorm</h3>
+        <p class="text-slate-400 text-sm mt-2">Useful common facilities for dormitory guests.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ATTRACTIONS -->
+  <section id="attractions" class="py-24 bg-noir-800/50 border-y border-gold-500/15">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-5 gap-12 items-start">
+        <div class="lg:col-span-2">
+          <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Explore Kashi</span>
+          <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-5">Near the Sacred Heart of Varanasi</h2>
+          <p class="text-slate-400 leading-relaxed">
+            The hotel is positioned in Hartirath, Visheshwarganj, giving guests convenient access to important temples,
+            ghats and heritage attractions of Varanasi.
+          </p>
+          <a href="https://maps.app.goo.gl/gTqyNFweJihAMV688" target="_blank" rel="noopener"
+            class="inline-flex mt-7 gold-shimmer-btn text-noir-900 font-semibold px-6 py-3 rounded text-xs uppercase tracking-widest items-center gap-2">
+            <i data-lucide="navigation" class="w-4 h-4"></i> Open Google Maps
+          </a>
+        </div>
+        <div class="lg:col-span-3 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">~1.5 km</span>
+            <h3 class="font-serif text-xl text-white">Kashi Vishwanath Temple</h3>
+            <p class="text-slate-500 text-xs mt-1">One of the most important Shiva temples of Kashi.</p>
+          </div>
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">~500 m</span>
+            <h3 class="font-serif text-xl text-white">Baba Kal Bhairav Temple</h3>
+            <p class="text-slate-500 text-xs mt-1">A major temple associated with Kashi's guardian deity.</p>
+          </div>
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">~200 m</span>
+            <h3 class="font-serif text-xl text-white">Mahamrityunjay Mahadev</h3>
+            <p class="text-slate-500 text-xs mt-1">A nearby sacred Shiva temple.</p>
+          </div>
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">~300 m</span>
+            <h3 class="font-serif text-xl text-white">Bhairav Mandir</h3>
+            <p class="text-slate-500 text-xs mt-1">A nearby spiritual destination.</p>
+          </div>
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">Varanasi</span>
+            <h3 class="font-serif text-xl text-white">Dashashwamedh Ghat</h3>
+            <p class="text-slate-500 text-xs mt-1">Famous for the evening Ganga Aarti.</p>
+          </div>
+          <div class="glass-luxury p-5 rounded-lg"><span class="text-gold-400 text-xs">Varanasi</span>
+            <h3 class="font-serif text-xl text-white">Sarnath</h3>
+            <p class="text-slate-500 text-xs mt-1">A major Buddhist heritage destination near Varanasi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCES -->
+ <section class="py-24 px-4 sm:px-8 max-w-7xl mx-auto">
+  <div class="text-center max-w-2xl mx-auto mb-14">
+    <span class="text-xs uppercase tracking-[0.25em] text-gold-400">
+      Kashi Experiences
+    </span>
+
+    <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-4">
+      Discover the Many Sides of Varanasi
+    </h2>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+    <!-- Temples & Pilgrimage -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Sep 1, 2026, 04_21_20 PM.png"
+        alt="Temples and pilgrimage in Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Temples & Pilgrimage
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Explore Kashi Vishwanath, Kaal Bhairav, Mahamritunjay Mahadev and other sacred places of Kashi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Ghats & Ganga Aarti -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Early Morning Shot of Varanasi in North India.jpg"
+        alt="Ganga Ghats in Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Ghats & Ganga Aarti
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Experience the spiritual atmosphere of Varanasi's sacred ghats and witness the mesmerizing evening Ganga Aarti.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Heritage & Sightseeing -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\Downloads\istockphoto-539021864-612x612.jpg"
+        alt="Indian heritage architecture in Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Heritage & Sightseeing
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Discover Sarnath, BHU, Manikarnika and the historic character of Kashi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Kashi Vishwanath Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Sep 1, 2026, 04_21_20 PM.png"
+        alt="Kashi Vishwanath Temple"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Kashi Vishwanath Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Visit one of India's most revered Shiva temples and a central spiritual landmark of Kashi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Kaal Bhairav Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\unnamed.jpg"
+        alt="Kaal Bhairav Temple in Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Kaal Bhairav Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Explore the ancient temple dedicated to Kaal Bhairav, traditionally regarded as the guardian deity of Kashi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Dashashwamedh Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Sep 1, 2026, 01_45_58 PM.png"
+        alt="Dashashwamedh Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Dashashwamedh Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Discover one of Varanasi's most iconic riverfront ghats and a major venue for the spectacular Ganga Aarti.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Assi Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\images (2).jpeg"
+        alt="Assi Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Assi Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Enjoy peaceful mornings, riverside walks and cultural experiences at one of the southernmost major ghats of Varanasi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Manikarnika Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\india-3365741_1280.jpg"
+        alt="Manikarnika Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Manikarnika Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Visit one of Varanasi's oldest and most significant ghats, deeply connected with the city's spiritual traditions.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Sankat Mochan Hanuman Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\images (1).jpeg"
+        alt="Sankat Mochan Hanuman Temple"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Sankat Mochan Hanuman Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          A revered Hanuman temple known for its peaceful spiritual atmosphere and long-standing religious traditions.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Durga Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Durga Temple Varanasi.jpg"
+        alt="Durga Temple Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Durga Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Admire the distinctive red architecture of this historic temple dedicated to Goddess Durga.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Mahamritunjay Mahadev Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Mahamritunjay Mahadev Temple.jpg"
+        alt="Mahamritunjay Mahadev Temple Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Mahamritunjay Mahadev Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Seek blessings at this sacred Shiva temple, known for its spiritual significance among devotees.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Kedar Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Kedar Ghat.jpg"
+        alt="Kedar Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Kedar Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Experience the devotional atmosphere and colorful riverside setting of this historic ghat.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Tulsi Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Tulsi Ghat.jpg"
+        alt="Tulsi Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Tulsi Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Explore a historic riverside ghat associated with poet-saint Tulsidas and the cultural heritage of Kashi.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Ramnagar Fort -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Ramnagar Fort.jpg"
+        alt="Ramnagar Fort Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Ramnagar Fort
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Discover the historic riverside fort and its royal heritage, museum collections and traditional architecture.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Sarnath -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Sarnath.jpg"
+        alt="Sarnath Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Sarnath
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Visit the historic Buddhist site where Gautama Buddha is traditionally said to have delivered his first sermon.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Dhamek Stupa -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Dhamek Stupa.jpg"
+        alt="Dhamek Stupa Sarnath"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Dhamek Stupa
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          See one of Sarnath's most prominent ancient monuments and an important site in Buddhist history.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- BHU -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\BHU Varanasi.jpg"
+        alt="Banaras Hindu University Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Banaras Hindu University
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Explore the historic campus of one of India's renowned universities and visit the beautiful New Vishwanath Temple.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- New Vishwanath Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\New Vishwanath Temple BHU.jpg"
+        alt="New Vishwanath Temple BHU"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          New Vishwanath Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Admire the elegant white marble temple located within the Banaras Hindu University campus.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Bharat Mata Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Bharat Mata Temple Varanasi.jpg"
+        alt="Bharat Mata Temple Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Bharat Mata Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Discover the unique temple featuring a marble relief map representing the Indian subcontinent.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Nepali Temple -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Nepali Temple Varanasi.jpg"
+        alt="Nepali Temple Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Nepali Temple
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Admire the distinctive wooden architecture and peaceful setting of this historic temple near Lalita Ghat.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Ahilyabai Ghat -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Ahilyabai Ghat.jpg"
+        alt="Ahilyabai Ghat Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Ahilyabai Ghat
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Experience the heritage and serene riverside views of this historic ghat along the Ganges.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Ganga Boat Ride -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\Varanasi Boat Ride.jpg"
+        alt="Boat Ride on the Ganges in Varanasi"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Ganga Boat Ride
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Enjoy a memorable boat ride along the Ganges and experience the timeless beauty of Varanasi from the river.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- Varanasi Cricket Stadium -->
+    <div class="group rounded-xl overflow-hidden glass-luxury">
+      <img
+        src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\images (1).jpeg"
+        alt="Varanasi International Cricket Stadium"
+        class="w-full h-64 object-cover group-hover:scale-105 transition duration-700">
+
+      <div class="p-6">
+        <h3 class="font-serif text-2xl text-white">
+          Varanasi International Cricket Stadium
+        </h3>
+
+        <p class="text-slate-400 text-sm mt-2">
+          Discover Varanasi's modern sporting landmark and an important new addition to the city's attractions.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <!-- GALLERY -->
+  <section id="gallery" class="py-24 bg-noir-800/40 border-y border-gold-500/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="text-center mb-12">
+        <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Gallery</span>
+        <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2">A Glimpse of Your Stay</h2>
+        <p class="text-slate-400 mt-3 text-sm">Replace the demonstration images below with your actual hotel
+          photography
+          for the final website.</p>
+      </div>
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\file_00000000eae88211b7cf5af6c024a298.png"
+          class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\file_00000000daf48211af9c062d0ae5a0cb.png"
+          alt="Family room" class="gallery-img rounded-xl w-full h-80 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Aug 30, 2026, 12_53_04 PM.png"
+          alt="Varanasi ghats" class="gallery-img rounded-xl w-full h-80 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\file_000000002d4482119aad772ff9976bef.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\file_000000009fe4821188066091f26da5e3.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Aug 30, 2026, 12_51_51 PM.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Sep 1, 2026, 12_41_22 AM - Copy.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Sep 1, 2026, 12_41_40 AM.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Aug 30, 2026, 12_35_13 PM.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Aug 30, 2026, 01_03_02 PM.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+        <img
+          src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\ChatGPT Image Aug 30, 2026, 01_01_45 PM.png"
+          alt="Ganga Aarti area" class="gallery-img rounded-xl w-full h-64 object-cover cursor-pointer">
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="reviews" class="py-24 px-4 sm:px-8">
+    <div class="max-w-4xl mx-auto text-center">
+      <div class="flex justify-center text-gold-400 mb-5">
+        <i data-lucide="star" class="w-5 h-5 fill-gold-400"></i><i data-lucide="star"
+          class="w-5 h-5 fill-gold-400"></i><i data-lucide="star" class="w-5 h-5 fill-gold-400"></i><i
+          data-lucide="star" class="w-5 h-5 fill-gold-400"></i><i data-lucide="star" class="w-5 h-5 fill-gold-400"></i>
+      </div>
+      <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Guest Reviews</span>
+      <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-5">Your Experience Matters</h2>
+      <p class="text-slate-400 max-w-2xl mx-auto">After your stay, we would be grateful for your honest feedback. Your
+        review helps future guests understand the experience at Shri Ram Janki Atithi Nivas.</p>
+      <a href="https://www.google.com/search?q=Shri+Ram+Janki+Atithi+Nivas+Varanasi" target="_blank" rel="noopener"
+        class="inline-flex mt-7 gold-shimmer-btn text-noir-900 font-semibold px-7 py-3 rounded text-xs uppercase tracking-widest items-center gap-2">
+        <i data-lucide="star" class="w-4 h-4"></i> Review Us on Google
+      </a>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="py-20 px-4 sm:px-8 max-w-4xl mx-auto">
+    <div class="text-center mb-12">
+      <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Guest Information</span>
+      <h2 class="font-serif text-4xl text-white mt-2">Frequently Asked Questions</h2>
+    </div>
+    <div class="space-y-3">
+      <div class="border border-gold-500/20 rounded-lg overflow-hidden glass-luxury">
+        <button onclick="toggleFaq(1)"
+          class="w-full text-left px-6 py-4 flex justify-between items-center text-white hover:text-gold-300 font-serif text-lg">
+          <span>Where is the hotel located?</span><i id="faq-icon-1" data-lucide="chevron-down"
+            class="w-5 h-5 text-gold-400"></i>
+        </button>
+        <div id="faq-content-1" class="hidden px-6 pb-5 text-sm text-slate-400">K46/197 Hartirath, Visheshwarganj,
+          Kotwali, Varanasi, Uttar Pradesh 221001.</div>
+      </div>
+      <div class="border border-gold-500/20 rounded-lg overflow-hidden glass-luxury">
+        <button onclick="toggleFaq(2)"
+          class="w-full text-left px-6 py-4 flex justify-between items-center text-white hover:text-gold-300 font-serif text-lg">
+          <span>What room options are available?</span><i id="faq-icon-2" data-lucide="chevron-down"
+            class="w-5 h-5 text-gold-400"></i>
+        </button>
+        <div id="faq-content-2" class="hidden px-6 pb-5 text-sm text-slate-400">The hotel offers Deluxe AC, Quadruple,
+          Triple, Double, Budget Double and Male Dormitory accommodation options.</div>
+      </div>
+      <div class="border border-gold-500/20 rounded-lg overflow-hidden glass-luxury">
+        <button onclick="toggleFaq(3)"
+          class="w-full text-left px-6 py-4 flex justify-between items-center text-white hover:text-gold-300 font-serif text-lg">
+          <span>Is Wi-Fi available?</span><i id="faq-icon-3" data-lucide="chevron-down"
+            class="w-5 h-5 text-gold-400"></i>
+        </button>
+        <div id="faq-content-3" class="hidden px-6 pb-5 text-sm text-slate-400">Yes. Free high-speed Wi-Fi is available
+          for guests.</div>
+      </div>
+      <div class="border border-gold-500/20 rounded-lg overflow-hidden glass-luxury">
+        <button onclick="toggleFaq(4)"
+          class="w-full text-left px-6 py-4 flex justify-between items-center text-white hover:text-gold-300 font-serif text-lg">
+          <span>How can I make a booking?</span><i id="faq-icon-4" data-lucide="chevron-down"
+            class="w-5 h-5 text-gold-400"></i>
+        </button>
+        <div id="faq-content-4" class="hidden px-6 pb-5 text-sm text-slate-400">Call or WhatsApp the hotel booking
+          number to confirm room availability and reservation details.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-24 bg-noir-800/50 border-t border-gold-500/15">
+    <div class="max-w-7xl mx-auto px-4 sm:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <span class="text-xs uppercase tracking-[0.25em] text-gold-400">Contact & Location</span>
+          <h2 class="font-serif text-4xl sm:text-5xl text-white mt-2 mb-5">Plan Your Stay in Kashi</h2>
+          <p class="text-slate-400 leading-relaxed mb-8">For room availability, group bookings, travel-agent enquiries
+            or general assistance, contact our team directly.</p>
+          <div class="space-y-5 text-sm">
+            <div class="flex gap-3"><i data-lucide="map-pin" class="w-5 h-5 text-gold-400 shrink-0"></i>
+              <div><strong class="text-white block">Address</strong><span class="text-slate-400">K46/197 Hartirath,
+                  Visheshwarganj, Kotwali, Varanasi, Uttar Pradesh 221001</span></div>
+            </div>
+            <div class="flex gap-3"><i data-lucide="phone" class="w-5 h-5 text-gold-400 shrink-0"></i>
+              <div><strong class="text-white block">Booking</strong><a href="tel:+919236222225"
+                  class="text-slate-400 hover:text-gold-300">+91 92362 22225</a> · <a href="tel:+919369545746"
+                  class="text-slate-400 hover:text-gold-300">+91 93695 45746</a></div>
+            </div>
+            <div class="flex gap-3"><i data-lucide="mail" class="w-5 h-5 text-gold-400 shrink-0"></i>
+              <div><strong class="text-white block">Email</strong><a href="mailto:shri.ram.janki.atithi.nivas@gmail.com"
+                  class="text-slate-400 hover:text-gold-300">shri.ram.janki.atithi.nivas@gmail.com</a></div>
+            </div>
+          </div>
+          <a href="https://maps.app.goo.gl/gTqyNFweJihAMV688" target="_blank" rel="noopener"
+            class="inline-flex mt-8 border border-gold-400/40 text-gold-200 hover:bg-gold-500/10 px-6 py-3 rounded text-xs uppercase tracking-widest items-center gap-2">
+            <i data-lucide="map" class="w-4 h-4"></i> Get Directions
+          </a>
+        </div>
+
+        <div class="glass-luxury rounded-xl p-7 sm:p-9">
+          <h3 class="font-serif text-3xl text-white mb-2">Send a Booking Enquiry</h3>
+          <p class="text-xs text-slate-400 mb-6">This form opens WhatsApp with your enquiry details.</p>
+          <form onsubmit="sendWhatsApp(event)" class="space-y-4">
+            <input id="enq-name" required placeholder="Your Name"
+              class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-400">
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input id="enq-phone" required type="tel" placeholder="Phone Number"
+                class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-400">
+              <select id="enq-room"
+                class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-400"></select>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <input id="enq-checkin" type="date"
+                class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm">
+              <input id="enq-checkout" type="date"
+                class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm">
+            </div>
+            <textarea id="enq-message" rows="4" placeholder="Guests, children or other requirements"
+              class="w-full bg-noir-800 text-white border border-gold-500/20 rounded px-4 py-3 text-sm focus:outline-none focus:border-gold-400"></textarea>
+            <button
+              class="w-full gold-shimmer-btn text-noir-900 font-semibold py-3.5 rounded text-xs uppercase tracking-widest flex items-center justify-center gap-2">
+              <i data-lucide="message-circle" class="w-4 h-4"></i> Send on WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="bg-noir-900 border-t border-slate-800 text-slate-500 text-xs py-12 px-4 sm:px-8">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-5 gap-8 mb-10">
+
+      <!-- HOTEL INFO -->
+      <div class="space-y-3">
+        <img src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\logo.png"
+          alt="Shri Ram Janki Atithi Nivas" class="h-12 w-auto">
+
+        <p class="text-slate-400 leading-relaxed">
+          Comfortable accommodation in Varanasi with easy access to important
+          temples and heritage attractions of Kashi.
+        </p>
+      </div>
+
+      <!-- ROOMS -->
+      <div>
+        <h4 class="text-white uppercase tracking-widest mb-3">Rooms</h4>
+
+        <ul class="space-y-2">
+          <li>
+            <a href="#rooms" class="hover:text-gold-300 transition">
+              Deluxe AC Room
+            </a>
+          </li>
+
+          <li>
+            <a href="#rooms" class="hover:text-gold-300 transition">
+              Quadruple Rooms
+            </a>
+          </li>
+
+          <li>
+            <a href="#rooms" class="hover:text-gold-300 transition">
+              Double Rooms
+            </a>
+          </li>
+
+          <li>
+            <a href="#rooms" class="hover:text-gold-300 transition">
+              Male Dormitory
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- EXPLORE -->
+      <div>
+        <h4 class="text-white uppercase tracking-widest mb-3">Explore</h4>
+
+        <ul class="space-y-2">
+          <li>
+            <a href="#attractions" class="hover:text-gold-300 transition">
+              Kashi Attractions
+            </a>
+          </li>
+
+          <li>
+            <a href="#facilities" class="hover:text-gold-300 transition">
+              Facilities
+            </a>
+          </li>
+
+          <li>
+            <a href="#gallery" class="hover:text-gold-300 transition">
+              Gallery
+            </a>
+          </li>
+
+          <li>
+            <a href="#contact" class="hover:text-gold-300 transition">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- BOOKING -->
+      <div>
+        <h4 class="text-white uppercase tracking-widest mb-3">Booking</h4>
+
+        <p class="text-slate-400 mb-2">
+          +91 92362 22225
+        </p>
+
+        <p class="text-slate-400 mb-2">
+          +91 93695 45746
+        </p>
+
+        <a href="mailto:shri.ram.janki.atithi.nivas@gmail.com"
+          class="text-slate-400 hover:text-gold-300 break-all transition">
+          shri.ram.janki.atithi.nivas@gmail.com
+        </a>
+      </div>
+
+      <!-- FOLLOW US -->
+      <div>
+        <h4 class="text-white uppercase tracking-widest mb-4">
+          Follow Us
+        </h4>
+
+        <div class="flex flex-wrap gap-3">
+
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/ram_janki_nivas/" target=" _blank" rel="noopener noreferrer"
+            aria-label="Follow Shri Ram Janki Atithi Nivas on Instagram" title="Instagram"
+            class="w-10 h-10 rounded-full border border-gold-500/20 bg-noir-800 flex items-center justify-center overflow-hidden hover:border-gold-400/50 hover:bg-gold-500/10 transition">
+            <img src="C:\Users\Shikhar Jaiswal\.gemini\antigravity\scratch\luxury-hotel-website\images\images (4).jpeg"
+              alt="Shri Ram Janki Atithi Nivas Instagram" class="w-6 h-6 object-contain">
+          </a>
+
+          <!-- Facebook -->
+          <a href="https://www.facebook.com/ram.janki.atithi.niwas" target="_blank" rel="noopener noreferrer"
+            aria-label="Follow Shri Ram Janki Atithi Nivas on Facebook" title="Facebook"
+            class="w-10 h-10 rounded-full border border-gold-500/20 bg-noir-800 flex items-center justify-center text-slate-400 hover:text-gold-300 hover:border-gold-400/50 hover:bg-gold-500/10 transition">
+            <i data-lucide="facebook" class="w-4 h-4"></i>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/company/shri-ram-janki-atithi-nivas/?originalSubdomain=in" target="_blank"
+            rel="noopener noreferrer" aria-label="Follow Shri Ram Janki Atithi Nivas on LinkedIn" title="LinkedIn"
+            class="w-10 h-10 rounded-full border border-gold-500/20 bg-noir-800 flex items-center justify-center text-slate-400 hover:text-gold-300 hover:border-gold-400/50 hover:bg-gold-500/10 transition">
+            <i data-lucide="linkedin" class="w-4 h-4"></i>
+          </a>
+
+          <!-- Tripadvisor -->
+          <a href="https://www.tripadvisor.com/Hotel_Review-g297685-d34435547-Reviews-Shri_Ram_Janki_Atithi_Nivas-Varanasi_Varanasi_District_Uttar_Pradesh.html"
+            target="_blank" rel="noopener noreferrer" aria-label="View Shri Ram Janki Atithi Nivas on Tripadvisor"
+            title="Tripadvisor"
+            class="w-10 h-10 rounded-full border border-gold-500/20 bg-noir-800 flex items-center justify-center text-slate-400 hover:text-gold-300 hover:border-gold-400/50 hover:bg-gold-500/10 transition">
+            <span class="font-semibold text-sm">TA</span>
+          </a>
+
+        </div>
+
+        <p class="text-slate-500 mt-4 leading-relaxed">
+          Follow us for updates, travel inspiration and news from Kashi.
+        </p>
+      </div>
+
+    </div>
+
+    <!-- COPYRIGHT -->
+    <div class="max-w-7xl mx-auto pt-6 border-t border-slate-800 flex flex-col sm:flex-row justify-between gap-3">
+      <p>
+        © <span id="year"></span>
+        Shri Ram Janki Atithi Nivas. All Rights Reserved.
+      </p>
+
+      <p>
+        K46/197 Hartirath, Varanasi, Uttar Pradesh 221001
+      </p>
+    </div>
+  </footer>
+
+  <!-- ROOM MODAL -->
+  <div id="room-modal"
+    class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-noir-900/85 backdrop-blur-md">
+    <div
+      class="relative w-full max-w-4xl max-h-[90vh] overflow-y-auto glass-luxury rounded-2xl border border-gold-500/30 p-6 sm:p-8 shadow-2xl">
+      <button onclick="closeRoomModal()" class="absolute top-4 right-4 text-slate-400 hover:text-white p-2"><i
+          data-lucide="x" class="w-6 h-6"></i></button>
+      <div id="room-modal-content"></div>
+    </div>
+  </div>
+
+  <!-- GALLERY LIGHTBOX -->
+  <div id="lightbox" class="fixed inset-0 z-[60] hidden items-center justify-center p-5 bg-black/90">
+    <button onclick="closeLightbox()" class="absolute top-5 right-5 text-white p-3"><i data-lucide="x"
+        class="w-7 h-7"></i></button>
+    <img id="lightbox-img" src="" alt="" class="max-w-full max-h-[88vh] rounded-xl object-contain">
+  </div>
+
+  <script>
+    const roomsData = [{ "id": "deluxe-ac-room", "name": "Deluxe AC Room", "category": "deluxe", "guests": "2 Adults + 1 Child", "bed": "King Bed", "bath": "Attached Private Washroom", "image": "https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&w=1200&q=85", "tagline": "A comfortable private room designed for a relaxed stay in the heart of Varanasi.", "amenities": ["Air conditioning", "Attached private washroom", "Western commode", "Free high-speed Wi-Fi", "Essential toiletries", "24/7 guest assistance"] }, { "id": "quad-private", "name": "Quadruple Room with Private Bathroom", "category": "family", "guests": "4 Adults + 2 Children", "bed": "2 King Beds", "bath": "Attached Private Washroom", "image": "https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&w=1200&q=85", "tagline": "Spacious accommodation for families and groups who prefer the convenience of a private bathroom.", "amenities": ["Air conditioning", "2 king-size beds", "Attached private washroom", "Free Wi-Fi", "Clean & hygienic room", "24/7 guest assistance"] }, { "id": "quad-shared", "name": "Quadruple Room with Shared Bathroom", "category": "family", "guests": "4 Adults + 2 Children", "bed": "2 King Beds", "bath": "Shared Washroom", "image": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?auto=format&fit=crop&w=1200&q=85", "tagline": "A practical and comfortable choice for families and groups looking for value and space.", "amenities": ["Air conditioning", "2 king-size beds", "Shared washroom nearby", "Free high-speed Wi-Fi", "Neat & clean", "24/7 guest assistance"] }, { "id": "triple-shared", "name": "Triple Room with Shared Bathroom", "category": "triple", "guests": "Up to 3 Guests", "bed": "Comfortable Bedding", "bath": "Shared Washroom", "image": "https://images.unsplash.com/photo-1584132967334-10e028bd69f7?auto=format&fit=crop&w=1200&q=85", "tagline": "A convenient room for small families, friends and pilgrims travelling together.", "amenities": ["AC option", "Comfortable bedding", "Shared washroom", "Free Wi-Fi", "Clean & well-maintained", "Guest assistance"] }, { "id": "double-shared", "name": "Double Room with Shared Bathroom", "category": "double", "guests": "2 Guests", "bed": "Double Bed", "bath": "Shared Washroom", "image": "https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1200&q=85", "tagline": "A simple, clean and comfortable option for two guests visiting Kashi.", "amenities": ["Non-AC", "Comfortable bedding", "Shared washroom", "Free Wi-Fi", "Clean & hygienic", "24/7 assistance"] }, { "id": "budget-double", "name": "Budget Double Room", "category": "double", "guests": "2 Guests", "bed": "Double Bed", "bath": "Shared Washroom", "image": "https://images.unsplash.com/photo-1595576508898-0ad5c879a061?auto=format&fit=crop&w=1200&q=85", "tagline": "A practical non-AC stay for guests who value cleanliness, location and convenience.", "amenities": ["Non-AC", "Comfortable bedding", "Shared washroom", "Free Wi-Fi", "Essential amenities", "Guest assistance"] }, { "id": "male-dorm", "name": "Bunk Bed in Male Dormitory", "category": "dormitory", "guests": "Shared Dormitory", "bed": "Hotel-standard Bunk Bed", "bath": "Shared Indian & Western Toilets", "image": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?auto=format&fit=crop&w=1200&q=85", "tagline": "A convenient shared stay for solo travellers and pilgrims, with useful common facilities.", "amenities": ["Non-AC", "Hotel-standard bedding", "Shared toilets & showers", "Shared kitchen", "Common TV", "High-speed free Wi-Fi"] }];
+
+    let currentFilter = 'all';
+
+    function moneylessBookingText(roomName) {
+      return `Hello Shri Ram Janki Atithi Nivas, I would like to enquire about ${roomName}. Please share availability and the current room rate.`;
+    }
+
+    function renderRooms(filter = 'all') {
+      currentFilter = filter;
+      const container = document.getElementById('room-cards');
+      const list = filter === 'all' ? roomsData : roomsData.filter(r => r.category === filter);
+      container.innerHTML = list.map(room => `
+        <article class="group rounded-xl overflow-hidden glass-luxury border border-gold-500/15 flex flex-col">
+          <div class="h-60 overflow-hidden relative">
+            <img src="${room.image}" alt="${room.name}" class="w-full h-full object-cover group-hover:scale-105 transition duration-700">
+            <div class="absolute inset-0 bg-gradient-to-t from-noir-900 via-transparent to-transparent"></div>
+            <span class="absolute top-4 left-4 bg-noir-900/80 border border-gold-400/30 text-gold-300 text-[10px] uppercase tracking-wider px-3 py-1 rounded-full">${room.guests}</span>
+          </div>
+          <div class="p-6 flex-1 flex flex-col">
+            <h3 class="font-serif text-2xl text-white">${room.name}</h3>
+            <p class="text-slate-400 text-sm mt-2 leading-relaxed">${room.tagline}</p>
+            <div class="grid grid-cols-2 gap-3 mt-5 text-xs">
+              <div><span class="text-slate-500 block">Bed</span><strong class="text-gold-300">${room.bed}</strong></div>
+              <div><span class="text-slate-500 block">Bathroom</span><strong class="text-gold-300">${room.bath}</strong></div>
+            </div>
+            <button onclick="openRoomModal('${room.id}')" class="mt-6 pt-4 border-t border-slate-700/50 text-gold-400 hover:text-gold-200 text-xs uppercase tracking-widest flex items-center gap-2">
+              View Room Details <i data-lucide="arrow-right" class="w-3.5 h-3.5"></i>
+            </button>
+          </div>
+        </article>
+      `).join('');
+      document.querySelectorAll('.filter').forEach(btn => {
+        const active = btn.dataset.filter === filter;
+        btn.classList.toggle('active', active);
+        btn.classList.toggle('bg-gold-500', active);
+        btn.classList.toggle('text-noir-900', active);
+        btn.classList.toggle('border', !active);
+        btn.classList.toggle('border-gold-500/20', !active);
+        btn.classList.toggle('bg-noir-800', !active);
+        btn.classList.toggle('text-slate-300', !active);
+      });
+      lucide.createIcons();
+    }
+
+    function filterRooms(filter) { renderRooms(filter); }
+
+    function openRoomModal(id) {
+      const room = roomsData.find(r => r.id === id);
+      if (!room) return;
+      document.getElementById('room-modal-content').innerHTML = `
+        <div class="grid md:grid-cols-2 gap-7">
+          <img src="${room.image}" alt="${room.name}" class="w-full h-72 md:h-full object-cover rounded-xl">
+          <div class="flex flex-col justify-center">
+            <span class="text-xs uppercase tracking-[.25em] text-gold-400">Accommodation</span>
+            <h2 class="font-serif text-4xl text-white mt-2">${room.name}</h2>
+            <p class="text-slate-400 mt-3 leading-relaxed">${room.tagline}</p>
+            <div class="grid grid-cols-2 gap-4 mt-6 text-sm">
+              <div><span class="text-slate-500 block">Guests</span><strong class="text-white">${room.guests}</strong></div>
+              <div><span class="text-slate-500 block">Bed</span><strong class="text-white">${room.bed}</strong></div>
+              <div class="col-span-2"><span class="text-slate-500 block">Bathroom</span><strong class="text-white">${room.bath}</strong></div>
+            </div>
+            <h4 class="text-xs uppercase tracking-wider text-gold-400 mt-7 mb-3">Room Amenities</h4>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-sm text-slate-300">
+              ${room.amenities.map(a => `<li class="flex gap-2 items-center"><i data-lucide="check" class="w-4 h-4 text-gold-400"></i>${a}</li>`).join('')}
+            </ul>
+            <div class="flex flex-col sm:flex-row gap-3 mt-8">
+              <a href="https://wa.me/919369545746?text=${encodeURIComponent(moneylessBookingText(room.name))}" target="_blank" rel="noopener" class="gold-shimmer-btn text-noir-900 font-semibold px-6 py-3 rounded text-xs uppercase tracking-widest text-center">Check Availability</a>
+              <a href="tel:+919369545746" class="border border-gold-400/30 text-gold-200 px-6 py-3 rounded text-xs uppercase tracking-widest text-center">Call to Book</a>
+            </div>
+          </div>
+        </div>`;
+      document.getElementById('room-modal').classList.remove('hidden');
+      document.getElementById('room-modal').classList.add('flex');
+      document.body.classList.add('modal-open');
+      lucide.createIcons();
+    }
+
+    function closeRoomModal() {
+      document.getElementById('room-modal').classList.add('hidden');
+      document.getElementById('room-modal').classList.remove('flex');
+      document.body.classList.remove('modal-open');
+    }
+
+    function toggleMobileMenu() {
+      document.getElementById('mobile-menu').classList.toggle('hidden');
+    }
+
+    function toggleFaq(n) {
+      const content = document.getElementById(`faq-content-${n}`);
+      const icon = document.getElementById(`faq-icon-${n}`);
+      content.classList.toggle('hidden');
+      icon.style.transform = content.classList.contains('hidden') ? '' : 'rotate(180deg)';
+    }
+
+    function sendWhatsApp(e) {
+      e.preventDefault();
+      const name = document.getElementById('enq-name').value;
+      const phone = document.getElementById('enq-phone').value;
+      const room = document.getElementById('enq-room').value;
+      const checkin = document.getElementById('enq-checkin').value || 'Not specified';
+      const checkout = document.getElementById('enq-checkout').value || 'Not specified';
+      const message = document.getElementById('enq-message').value || 'No additional requirements';
+      const text = `Hotel Booking Enquiry%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0ARoom: ${encodeURIComponent(room)}%0ACheck-in: ${encodeURIComponent(checkin)}%0ACheck-out: ${encodeURIComponent(checkout)}%0ARequirements: ${encodeURIComponent(message)}`;
+      window.open(`https://wa.me/919369545746?text=${text}`, '_blank');
+    }
+
+    function openLightbox(src, alt) {
+      document.getElementById('lightbox-img').src = src;
+      document.getElementById('lightbox-img').alt = alt || 'Hotel gallery';
+      document.getElementById('lightbox').classList.remove('hidden');
+      document.getElementById('lightbox').classList.add('flex');
+    }
+    function closeLightbox() {
+      document.getElementById('lightbox').classList.add('hidden');
+      document.getElementById('lightbox').classList.remove('flex');
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('year').textContent = new Date().getFullYear();
+      renderRooms();
+      const select = document.getElementById('enq-room');
+      select.innerHTML = '<option>Any available room</option>' + roomsData.map(r => `<option>${r.name}</option>`).join('');
+      document.querySelectorAll('.gallery-img').forEach(img => img.addEventListener('click', () => openLightbox(img.src, img.alt)));
+      lucide.createIcons();
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') { closeRoomModal(); closeLightbox(); }
+    });
+  </script>
+</body>
+
+</html>
